@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  padding: 19px 60px;
+  background-color: $theme-color;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+
+  &:hover {
+    background-color: darken($theme-color, 3%);
+    transition: background-color .3s ease-out;
+  }
+
+  &:active {
+    background-color: darken($theme-color, 6%);
+  }
+}

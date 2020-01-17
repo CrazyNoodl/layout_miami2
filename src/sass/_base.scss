@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include main-font;
+  font-weight: $main-weight;
+  line-height: $main-height;
+  color: $main-color;
+  font-size: $main-size;
+}
+
+.logo {
+  width: $logo-width;
+  height: $logo-height;
+}
