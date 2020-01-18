@@ -16,6 +16,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    -ms-flex-align: start;
     height: $logo-height;
 
     @include mobile {
