@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$("#menu").on("click","a",function(t){t.preventDefault();var e=$(this).attr("href"),n=$(e).offset().top;$("body,html").animate({scrollTop:n},1e3)})});
+"use strict";$(document).ready(function(){$("#menu").on("click","a",function(t){t.preventDefault();var e=$(this).attr("href"),o=$(e).offset().top;$("body,html").animate({scrollTop:o},1e3)})}),$.validate({borderColorOnError:"#f00",addValidClassOnAll:!0});
