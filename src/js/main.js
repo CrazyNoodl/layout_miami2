@@ -8,3 +8,8 @@ $(document).ready(function () {
     $('body,html').animate({ scrollTop: top }, 1000);
   });
 });
+
+$.validate({
+  borderColorOnError: '#f00',
+  addValidClassOnAll: true,
+});
