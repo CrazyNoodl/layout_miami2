@@ -8,6 +8,7 @@ body {
   line-height: $main-height;
   color: $main-color;
   font-size: $main-size;
+  min-width: 320px;
 }
 
 .logo {

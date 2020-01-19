@@ -27,11 +27,6 @@
     max-width: 385px;
 
     @include mobile {
-      max-width: 75%;
-      margin: 0 auto;
-    }
-
-    @include mobileL {
       max-width: 100%;
     }
   }

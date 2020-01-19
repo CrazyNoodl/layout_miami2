@@ -139,12 +139,15 @@
 
         <form class="form consultation__form" action="https://formspree.io/xqkpykyd" method="POST" name="consultation">
           <label class="form__label">
+            <span class="form__none">name</span>
             <input class="form__input" name="name" placeholder="name" type="text" data-validation="required">
           </label>
           <label class="form__label">
+            <span class="form__none">phone</span>
             <input class="form__input" name="phone" placeholder="phone" type="tel" data-validation="required">
           </label>
-          <label class="form__label">
+          <label class="form__label" id="consultation_email">
+            <span class="form__none">email</span>
             <input class="form__input" name="email" placeholder="email" type="email" data-validation="email">
           </label>
           <button type="submit" class="button consultation__button">
@@ -200,13 +203,16 @@
         </div>
         <form class="form contact__form" action="https://formspree.io/xqkpykyd" method="POST" name="contactus">
           <label class="form__label">
+            <span class="form__none">name</span>
             <input class="form__input" name="name" placeholder="name" type="text" data-validation="required">
           </label>
           <label class="form__label">
+            <span class="form__none">email</span>
             <input class="form__input" name="email" placeholder="email" type="email" data-validation="email">
           </label>
           <label class="form__label">
-            <textarea class="form__input form__textarea" placeholder="message" rows="4"
+            <span class="form__none">textarea</span>
+            <textarea class="form__input form__textarea" name="contactus__textarea" placeholder="message" rows="4"
               data-validation="required"></textarea>
           </label>
           <button type="submit" class="button contact__button">

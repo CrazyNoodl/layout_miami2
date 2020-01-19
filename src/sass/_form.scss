@@ -5,11 +5,17 @@
 
   &__label {
     margin-bottom: 8px;
+    position: relative;
+  }
+
+  &__none {
+    position: absolute;
+    z-index: -1;
   }
 
   &-error {
     color: red;
-    font: 12px;
+    font-size: 12px;
   }
 
   &__input {
@@ -21,10 +27,6 @@
     background-color: #eee;
     text-align: center;
     border: 2px solid transparent;
-
-    &+label {
-      margin-bottom: 16px;
-    }
 
     &::placeholder {
       font-family: inherit;
