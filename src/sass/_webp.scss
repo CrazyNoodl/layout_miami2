@@ -1,0 +1,12 @@
+.webp {
+
+  & .header {
+    background: #043137 url(../images/header-bg.webp) center no-repeat;
+    background-size: cover;
+  }
+
+  & .footer {
+    background: #87BFC1 url(../images/footer-bg.webp) center no-repeat;
+    background-size: cover;
+  }
+}

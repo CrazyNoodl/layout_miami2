@@ -8,7 +8,7 @@
   <script src="/serviseWorker.js"></script>
   <script src="/install-pwa.js"></script>
   <meta name="theme-color" content="#014C84">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="canonical" href="https://www.mylandings.space/">
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet">
@@ -96,8 +96,16 @@
       <div class="container">
         <div class="gallery__photos">
           <figure class="gallery__row">
-            <img class="gallery__img gallery__img--big" src="./images/gallery/1.jpg" alt="photo-1">
-            <img class="gallery__img gallery__img--small" src="./images/gallery/2.jpg" alt="photo-2">
+            <picture class="gallery__picture">
+              <source srcset="./images/gallery/1.webp" type="image/webp">
+              <source srcset="./images/gallery/1.jpg" type="image/jpeg">
+              <img class="gallery__image" src="./images/gallery/1.jpg" alt="photo-1">
+            </picture>
+            <picture class="gallery__picture gallery__picture--mini">
+              <source srcset="./images/gallery/2.webp" type="image/webp">
+              <source srcset="./images/gallery/2.jpg" type="image/jpeg">
+              <img class="gallery__image" src="./images/gallery/2.jpg" alt="photo-2">
+            </picture>
             <figcaption class="gallery__row_caption">
               Marina Palms / <a href="https://goo.gl/maps/bEA1Utq7p7DVM9LT7" target="_blank" rel="noopener">North Miami
                 Beach, FL
@@ -105,16 +113,32 @@
             </figcaption>
           </figure>
           <figure class="gallery__row">
-            <img class="gallery__img" src="./images/gallery/3.jpg" alt="photo-3">
-            <img class="gallery__img" src="./images/gallery/4.jpg" alt="photo-4">
+            <picture class="gallery__picture">
+              <source srcset="./images/gallery/3.webp" type="image/webp">
+              <source srcset="./images/gallery/3.jpg" type="image/jpeg">
+              <img class="gallery__image" src="./images/gallery/3.jpg" alt="photo-3">
+            </picture>
+            <picture class="gallery__picture">
+              <source srcset="./images/gallery/4.webp" type="image/webp">
+              <source srcset="./images/gallery/4.jpg" type="image/jpeg">
+              <img class="gallery__image" src="./images/gallery/4.jpg" alt="photo-4">
+            </picture>
             <figcaption class="gallery__row_caption">
               Edition Residens / <a href="https://goo.gl/maps/bEA1Utq7p7DVM9LT7" target="_blank" rel="noopener">Miami
                 Beach, FL
                 33139</a></figcaption>
           </figure>
           <figure class="gallery__row">
-            <img class="gallery__img gallery__img--small" src="./images/gallery/5.jpg" alt="photo-5">
-            <img class="gallery__img gallery__img--big" src="./images/gallery/6.jpg" alt="photo-6">
+            <picture class="gallery__picture gallery__picture--mini">
+              <source srcset="./images/gallery/5.webp" type="image/webp">
+              <source srcset="./images/gallery/5.jpg" type="image/jpeg">
+              <img class="gallery__image" src="./images/gallery/5.jpg" alt="photo-5">
+            </picture>
+            <picture class="gallery__picture">
+              <source srcset="./images/gallery/6.webp" type="image/webp">
+              <source srcset="./images/gallery/6.jpg" type="image/jpeg">
+              <img class="gallery__image" src="./images/gallery/6.jpg" alt="photo-6">
+            </picture>
             <figcaption class="gallery__row_caption">
               Faena House / <a href="https://goo.gl/maps/bEA1Utq7p7DVM9LT7" target="_blank" rel="noopener">Miami Beach,
                 FL 33140</a>
