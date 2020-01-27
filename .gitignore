@@ -12,6 +12,7 @@ yarn-error.log*
 build/
 
 # Runtime data
+.DS_Store
 pids
 *.pid
 *.seed
