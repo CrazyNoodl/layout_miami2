@@ -23,6 +23,10 @@
     &:hover {
       color: $theme-color;
     }
+
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   &__form {
