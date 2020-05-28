@@ -31,17 +31,6 @@
       color: $hover-color;
     }
 
-    &_active {
-      padding: 7px 20px;
-      background-color: $hover-color;
-      color: $main-color;
-      border-radius: 10px;
-
-      &:hover {
-        color: inherit;
-      }
-    }
-
     @include mobile {
       font-size: 20px;
     }

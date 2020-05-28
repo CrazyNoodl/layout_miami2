@@ -3,18 +3,12 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel='manifest' href='/manifest.json'>
-  <script src="/pwabuilder-sw.js"></script>
-  <script src="/serviseWorker.js"></script>
-  <script src="/install-pwa.js"></script>
   <meta name="theme-color" content="#014C84">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="canonical" href="https://www.mylandings.space/">
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="Description" content="test work for practice">
-  <link rel="apple-touch-icon" href="/ico/300x300.png">
   <title>Miami</title>
   <!-- inject:css -->
   <!-- endinject -->
@@ -26,19 +20,19 @@
     <div class="container container_header">
       <div class="header__top">
         <div class="logo header__logo">
-          <img src="./images/logo.png" alt="logo">
+          <img src="./images/logo.png" alt="site's logo">
         </div>
-        <a class="header__tel" href="tel:+380633911710">
-          +3 063 391-17-10
+        <a class="header__tel" href="tel:380633911710">
+          38 063 391-17-10
         </a>
-        <a class="header__call" href="tel:+380633911710">
+        <a class="header__call" href="tel:380633911710">
           call to order
         </a>
       </div>
       <nav class="nav" id="menu">
         <ul class="nav__menu">
           <li class="nav__item">
-            <a class="nav__link nav__link_active" href="#">Home</a>
+            <a class="nav__link" href="#">Home</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#info">About Us</a>
@@ -92,7 +86,6 @@
         Gallery <span class="title__crown"></span>
       </h2>
       </div>
-
       <div class="container">
         <div class="gallery__photos">
           <figure class="gallery__row">
@@ -177,7 +170,7 @@
             <span class="form__none">phone</span>
             <input class="form__input" name="phone" placeholder="phone" type="tel" data-validation="custom"
               data-validation-regexp="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
-              data-validation-error-msg="Not valid phone number e.g. +380633911710">
+              data-validation-error-msg="Not valid phone number e.g. 380633911710">
           </label>
           <label class="form__label" id="consultation_email">
             <span class="form__none">email</span>
@@ -196,7 +189,7 @@
       </h2>
       <div class="container container_testemonials">
         <div class="testemonials__block">
-          <img class="testemonials__photo" src="./images/testemonials/1.jpg" alt="face">
+          <img class="testemonials__photo" src="./images/testemonials/1.jpg" alt="face of Tim Cook">
           <div class="testemonials__content">
             <div class="testemonials__name">Tim Cook</div>
             <div class="testemonials__prof">CEO</div>
@@ -204,7 +197,7 @@
           </div>
         </div>
         <div class="testemonials__block">
-          <img class="testemonials__photo" src="./images/testemonials/2.jpg" alt="face">
+          <img class="testemonials__photo" src="./images/testemonials/2.jpg" alt="face Katherine Adams">
           <div class="testemonials__content">
             <div class="testemonials__name">Katherine Adams</div>
             <div class="testemonials__prof">Senior Vice President</div>
@@ -213,7 +206,7 @@
           </div>
         </div>
         <div class="testemonials__block">
-          <img class="testemonials__photo" src="./images/testemonials/3.jpg" alt="face">
+          <img class="testemonials__photo" src="./images/testemonials/3.jpg" alt="face of Jonathan Ive">
           <div class="testemonials__content">
             <div class="testemonials__name">Jonathan Ive</div>
             <div class="testemonials__prof">Chief Design Officer</div>
@@ -258,7 +251,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="logo footer__logo">
-      <img src="./images/logo.png" alt="logo">
+      <img src="./images/logo.png" alt="site's logo">
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

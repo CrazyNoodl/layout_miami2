@@ -1,5 +1,4 @@
 'use strict'
-
 $(document).ready(function () {
   $("#menu").on("click", "a", function (event) {
     event.preventDefault();

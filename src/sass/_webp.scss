@@ -1,3 +1,17 @@
+.no-webp {
+
+  & .header {
+    background: #043137 url(../images/header-bg.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  & .footer {
+    background: #87BFC1 url(../images/footer-bg.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+}
+
 .webp {
 
   & .header {
