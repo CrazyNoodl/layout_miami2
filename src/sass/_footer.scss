@@ -1,7 +1,5 @@
 .footer {
   display: flex;
-  background: #87BFC1 url(../images/footer-bg.jpg) center no-repeat;
-  background-size: cover;
   height: 540px;
 
   @include mobile {
